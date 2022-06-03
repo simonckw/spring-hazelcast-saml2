@@ -13,9 +13,6 @@ import org.springframework.session.hazelcast.config.annotation.SpringSessionHaze
 import org.springframework.session.hazelcast.config.annotation.web.http.EnableHazelcastHttpSession;
 import org.springframework.session.web.context.AbstractHttpSessionApplicationInitializer;
 
-/**
- * SessionConfiguration.
- */
 @Configuration
 @EnableHazelcastHttpSession
 class SessionConfig extends AbstractHttpSessionApplicationInitializer {
